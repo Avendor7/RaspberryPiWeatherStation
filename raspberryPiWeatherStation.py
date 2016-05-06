@@ -9,9 +9,6 @@ r = requests.get('http://www.omdbapi.com/?t=Die+Hard&y=1988&plot=short&r=json')
 print (r.text)
 
 
-
-
-
 os.system('modprobe w1-gpio')
 os.system('modprobe w1-therm')
 
